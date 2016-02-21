@@ -9,7 +9,3 @@ jdk:
 install: mvn install -U -DskipTests=true
 
 script: mvn verify -U -Dmaven.javadoc.skip=true
-
-cache:
-  directories:
-  - $HOME/ .m2
